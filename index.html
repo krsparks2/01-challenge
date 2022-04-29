@@ -5,10 +5,12 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./Assets/css/style.css">
     <title>Horiseon Web Assesibility</title>
+    
 </head>
 
 <body>
     <header>
+        <!-- changed from div to semantic "header" tag -->
     <nav class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
@@ -23,26 +25,27 @@
                     <a href="#SMM">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+       </div>
     </nav>
     <div class="hero" title="Header Image"></div>
     </header>
-    <main class="content">
-        <article class="search-engine-optimization" id="SEO">
+        <!-- disposed of nested divs to use semantic main and article tags -->
+    <main class="main">
+        <article class="main-format" id="SEO">
             <img src="./Assets/images/search-engine-optimization.jpg" class="float-left" alt="search engine optimization image" />
             <h2 >Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article class="online-reputation-management" id="ORM">
+        <article class="main-format" id="ORM">
             <img src="./Assets/images/online-reputation-management.jpg" class="float-right" alt="online reputation management image" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article class="social-media-marketing" id="SMM">
+        <article class="main-format" id="SMM">
             <img src="./Assets/images/social-media-marketing.jpg" class="float-left" alt="social media marketing image"/>
             <h2>Social Media Marketing</h2>
             <p>
@@ -50,22 +53,23 @@
             </p>
         </article>
     </main>
+    <!-- disposed of nested divs to use semantic aside and article tags -->
     <aside class="benefits">
-        <article class="benefit-lead">
+        <article class="benefit-format">
             <h3>Lead Generation</h3>
             <img src="./Assets/images/lead-generation.png" alt="lead generation icon" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </article>
-        <article class="benefit-brand">
+        <article class="benefit-format">
             <h3>Brand Awareness</h3>
             <img src="./Assets/images/brand-awareness.png" alt="Brand Awareness icon"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </article>
-        <article class="benefit-cost">
+        <article class="benefit-format">
             <h3>Cost Management</h3>
             <img src="./Assets/images/cost-management.png" alt="cost management icon"/>
             <p>
@@ -73,6 +77,7 @@
             </p>
         </article>
     </aside>
+    <!-- disposed of nested divs to use semantic footer tag -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
