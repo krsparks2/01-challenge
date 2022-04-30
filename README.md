@@ -1,3 +1,10 @@
+# Refactoring Existing Site
+
+## User Story:
+    AS A marketing agency
+    I WANT a codebase that follows accessibility standards
+    SO THAT our own site is optimized for search engines
+
 Refactoring existing code  to create a codebase that follows accessibility standards so that the site is optimized for search engines
 
 ## Mock-Up
@@ -9,3 +16,4 @@ The following image shows the web application's appearance and functionality:
 > **Note**: This layout is designed for desktop viewing
 
 
+## Contact Me at krsparks@yahoo.com
